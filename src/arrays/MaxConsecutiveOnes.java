@@ -1,8 +1,6 @@
 package arrays;
 
 
-import java.util.Arrays;
-
 public class MaxConsecutiveOnes {
 
     public static int findMaxConsecutiveOnes(int[] nums) {
