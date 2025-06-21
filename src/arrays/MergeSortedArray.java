@@ -43,6 +43,12 @@ public class MergeSortedArray {
 
         merge(arr,3,arr2,3);
 
+       
+
+
+
+
+
 
 
     }
