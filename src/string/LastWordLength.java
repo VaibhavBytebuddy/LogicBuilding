@@ -1,12 +1,14 @@
 package string;
 
 import javax.xml.crypto.dsig.spec.XSLTTransformParameterSpec;
+import java.io.InputStream;
 
-public class LastWordLength {
+public class LastWordLength  {
 
-    public static  int lengthOfLastWord(String s) {
+    public static  int lengthOfLastWord(String s)  {
            int len=0;
            int i=s.length()-1;
+     
 
         // Skip trailing spaces  last la space astil trr , te remove karnya sathi
            while(i>=0 && s.charAt(i)==' ')
