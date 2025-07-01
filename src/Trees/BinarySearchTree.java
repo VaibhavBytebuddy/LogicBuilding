@@ -1,5 +1,7 @@
 package Trees;
 
+import java.util.stream.Stream;
+
 public class BinarySearchTree {
 
     public TreeNode searchBST(TreeNode root, int val) {
@@ -17,4 +19,5 @@ public class BinarySearchTree {
 
 
     }
+
 }
